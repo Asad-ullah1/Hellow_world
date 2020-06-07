@@ -33,4 +33,4 @@ jobs:
       run: npm install -g surge
       
     - name: publish site code on surge 
-      run: surge ./mywork1.surge.sh/ --token ${{ secrets.FIRST_TOKEN }}
+      run: surge ./ mywork1.surge.sh --token ${{ secrets.FIRST_TOKEN }}
